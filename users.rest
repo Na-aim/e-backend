@@ -2,14 +2,15 @@ GET http://localhost:4500/users
 
 
 ###
-POST http://localhost:8081/api/auth/signup
+POST http://localhost:3000/api/auth/signup
 Content-Type: application/json
 
 {
-    "name":"Naruto",
-    "email":"Naruto",
+    "username":"Narutos",
+    "email":"Narutos",
     "password":"ninetailfox",
-    "roles":["Admin","user"]
+    "Roles":"Admin"
+
 }
 
 
