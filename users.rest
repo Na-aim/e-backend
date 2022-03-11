@@ -1,0 +1,21 @@
+GET http://localhost:4500/users
+
+
+###
+POST http://localhost:8081/api/auth/signup
+Content-Type: application/json
+
+{
+    "name":"Naruto",
+    "email":"Naruto",
+    "password":"ninetailfox",
+    "roles":["Admin","user"]
+}
+
+
+###
+DELETE http://localhost:4500/users
+
+
+###
+PATCH http://localhost:4500/users
