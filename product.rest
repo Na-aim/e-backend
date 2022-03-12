@@ -1,0 +1,11 @@
+POST http://localhost:3000/api/auth
+Content-Type: application/json
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMmIzNjYzMDIxOWY1OTNjNTU0ODMyNCIsImlhdCI6MTY0NzAwMzE3MSwiZXhwIjoxNjQ3MDg5NTcxfQ.gYrFr5S2Bol00PR7sKWS2r6W_Nsqo_F7wBnu4TPDCHg
+
+{
+    "name":"Narutos",
+    "description":"ninetailfox",
+    "price":"R 1234",
+    "size":"SDDASASDQD",
+    "img":"assd"
+}
