@@ -6,6 +6,7 @@ const Products = mongoose.model(
     description: String,
     price: String,
     size: String,
+    anime: String,
     img: String,
   })
 );

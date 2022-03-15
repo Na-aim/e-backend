@@ -1,11 +1,12 @@
-POST http://localhost:3000/api/auth
+POST http://localhost:3000/products
 Content-Type: application/json
-x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMmIzNjYzMDIxOWY1OTNjNTU0ODMyNCIsImlhdCI6MTY0NzAwMzE3MSwiZXhwIjoxNjQ3MDg5NTcxfQ.gYrFr5S2Bol00PR7sKWS2r6W_Nsqo_F7wBnu4TPDCHg
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMmY0MmEzN2Q1MTE2YWM2NWU1MjFjOCIsImlhdCI6MTY0NzI2NDU2MSwiZXhwIjoxNjQ3MzUwOTYxfQ.OuPkxLjjJu0nqNGWzvKimaGb4m_46wLRC2UC3vo22kQ
 
 {
-    "name":"Narutos",
-    "description":"ninetailfox",
-    "price":"R 1234",
-    "size":"SDDASASDQD",
-    "img":"assd"
+    "name":"Itachi hoodie",
+    "description":"100% cotton embroided hoodie",
+    "price":"R 1999",
+    "size":"M",
+    "anime":"Naruto",
+    "img":"https://i.postimg.cc/rmZCfrYF/itache-hood.webp"
 }

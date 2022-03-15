@@ -1,4 +1,4 @@
-GET http://localhost:4500/users
+GET http://localhost:3000/user
 
 
 ###
@@ -6,14 +6,22 @@ POST http://localhost:3000/api/auth/signin
 Content-Type: application/json
 
 {
-    "username":"Narutos",
-    "password":"ninetailfox"
+    "username":"mushi",
+    "email": "rahyaan@gmail.com",
+    "password":"ash",
+    "roles":["user", "admin"]
 }
 
 
 ###
-DELETE http://localhost:4500/users
+DELETE http://localhost:3000/users
 
 
 ###
-PATCH http://localhost:4500/users
+PATCH http://localhost:3000/users
+Content-Type: application/json
+accessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMmYzMGI2MzFhY2RmYzRkZmY3MzhmYyIsImlhdCI6MTY0NzI1OTg4MCwiZXhwIjoxNjQ3MzQ2MjgwfQ.Pzshxhk_tIS2eypj_DDQMFjQL-lgAQ69BFg1E2_w-iw
+
+{
+    "username":"baidah"
+}

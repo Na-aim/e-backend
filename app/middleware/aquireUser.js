@@ -1,6 +1,6 @@
-const User = require("../models/product");
+const User = require("../models/user.model");
 
-getProduct = async (req, res, next) => {
+getUser = async (req, res, next) => {
   let product;
   try {
     product = await User.findById(req.params.id);

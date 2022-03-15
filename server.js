@@ -56,6 +56,7 @@ app.get("/", (req, res) => {
 
 require("./app/routes/auth.routes")(app)
 require("./app/routes/user.routes")(app)
+require("./app/routes/products.routes")(app)
 // set port, listen for requests
 // const PORT = process.env.PORT || 8080;
 app.listen(process.env.PORT || 3000, () => console.log(`Server started on port 3000 WeebStore`))
