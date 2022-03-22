@@ -1,4 +1,4 @@
-GET http://localhost:3000/user
+GET http://localhost:3000/auth/users
 
 
 ###
@@ -14,8 +14,8 @@ Content-Type: application/json
 
 
 ###
-DELETE http://localhost:3000/users
-
+DELETE http://localhost:3000/auth/users/622f302431acdfc4dff738f4
+x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMmY0MmEzN2Q1MTE2YWM2NWU1MjFjOCIsImlhdCI6MTY0NzYxMTc5NCwiZXhwIjoxNjQ3Njk4MTk0fQ.V5-_DBMIiryGPLHdJ8QGYl0WWs-kjOrVvrXjeZFfWYo
 
 ###
 PATCH http://localhost:3000/users

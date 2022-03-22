@@ -3,7 +3,7 @@ const User = require("../models/user.model");
 getUser = async (req, res, next) => {
   let user;
   try {
-    user = await User.findById(req.userId);
+    user = await User.findById(req.params.id);
     if (user == null) {
       return res.status(404).json({ message: "cannot find user" });
     }
