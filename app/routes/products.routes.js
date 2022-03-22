@@ -1,4 +1,4 @@
-const express = require("express");
+const express = require("express"); //Alex was here
 const Product = require("../models/product");
 const authJwt = require("../middleware/authJwt");
 const getProduct = require("../middleware/aquireProduct");
